@@ -11,7 +11,7 @@ function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Building Fast<span className="accent-indigo">Pixel-Perfect</span> Responsive{' '}
+            Creating<span className="accent-indigo">Responsive</span> Pixel-perfect{' '}
             <span className="accent-pink">Websites.</span>
           </h1>
 
