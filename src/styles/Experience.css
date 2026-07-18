@@ -1,0 +1,118 @@
+.timeline {
+  position: relative;
+  margin-top: 56px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: repeating-linear-gradient(var(--line) 0 8px, transparent 8px 16px);
+}
+
+.tl-item {
+  position: relative;
+  padding-left: 56px;
+  margin-bottom: 40px;
+}
+
+.tl-item:last-child {
+  margin-bottom: 0;
+}
+
+.tl-dot {
+  position: absolute;
+  left: 10px;
+  top: 6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 3px solid var(--yellow);
+  z-index: 2;
+}
+
+.tl-item:nth-child(2n) .tl-dot { border-color: var(--pink); }
+.tl-item:nth-child(3n) .tl-dot { border-color: var(--mint); }
+
+.tl-card .browser-body {
+  padding: 16px 20px;
+}
+
+.tl-role {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.tl-org {
+  font-family: var(--f-mono);
+  font-size: 13px;
+  color: var(--ink-dim);
+  margin-bottom: 8px;
+}
+
+.tl-desc {
+  font-size: 14px;
+  color: var(--ink-dim);
+  margin-bottom: 10px;
+}
+
+.tl-date {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--mint);
+}
+
+/* ---------- education card, tucked under the timeline ---------- */
+.edu-wrap {
+  margin-top: 64px;
+  max-width: 640px;
+}
+
+.edu-card .browser-body {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.edu-cap {
+  width: 52px;
+  height: 52px;
+  border-radius: 10px;
+  background: var(--yellow);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu-cap .icon {
+  stroke: #171008;
+}
+
+.edu-degree {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.edu-field {
+  color: var(--ink-dim);
+  font-size: 14px;
+  margin: 4px 0;
+}
+
+.edu-school {
+  font-family: var(--f-mono);
+  font-size: 13px;
+  color: var(--mint);
+}
+
+.edu-date {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-dim);
+  margin-top: 8px;
+}

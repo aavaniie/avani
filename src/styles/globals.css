@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--f-body);
+  line-height: 1.5;
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+svg {
+  display: block;
+}
+
+::selection {
+  background: var(--mint);
+  color: #0f0f1a;
+}
+
+:focus-visible {
+  outline: 3px solid var(--mint);
+  outline-offset: 3px;
+}
+
+/* every section content sits inside this - keeps the 1200px container consistent */
+.wrap {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+section {
+  position: relative;
+  padding: 96px 0;
+}
+
+section.alt {
+  background: var(--bg2);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+/* little line-icon svgs used all over the site */
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  fill: none;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex-shrink: 0;
+}
+
+/* ---------- ambient background (dot grid + drifting blobs) ---------- */
+.bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  overflow: hidden;
+  background: radial-gradient(circle, rgba(245, 244, 242, 0.07) 1px, transparent 1.4px);
+  background-size: 30px 30px;
+  background-position: 0 0;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(90px);
+  opacity: 0.28;
+  will-change: transform;
+}
+
+.blob-a {
+  width: 420px;
+  height: 420px;
+  background: var(--indigo);
+  top: -8%;
+  left: 8%;
+  animation: drift1 22s ease-in-out infinite;
+}
+
+.blob-b {
+  width: 380px;
+  height: 380px;
+  background: var(--pink);
+  top: 30%;
+  right: 4%;
+  animation: drift2 26s ease-in-out infinite;
+}
+
+.blob-c {
+  width: 320px;
+  height: 320px;
+  background: var(--mint);
+  bottom: -6%;
+  left: 38%;
+  animation: drift3 30s ease-in-out infinite;
+}
+
+@keyframes drift1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, 40px) scale(1.15); }
+}
+
+@keyframes drift2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-50px, 60px) scale(0.9); }
+}
+
+@keyframes drift3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(40px, -50px) scale(1.1); }
+}
+
+@keyframes blink {
+  50% { opacity: 0.2; }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0) rotate(-3deg); }
+  50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+/* ---------- the "browser window" motif, reused by Hero, Experience, Projects, Contact ---------- */
+.browser {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px -18px rgba(0, 0, 0, 0.6);
+}
+
+.browser-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #131320;
+  border-bottom: 1px solid var(--line);
+}
+
+.browser-dots {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.browser-dots span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  display: block;
+}
+
+.browser-dots span:nth-child(1) { background: var(--pink); }
+.browser-dots span:nth-child(2) { background: var(--yellow); }
+.browser-dots span:nth-child(3) { background: var(--mint); }
+
+.browser-url {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-dim);
+  background: #101018;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 10px;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.browser-body {
+  padding: 22px;
+}
+
+/* ---------- section header pattern, reused by every section ---------- */
+.section-tag {
+  font-family: var(--f-mono);
+  font-size: 12px;
+  color: var(--ink-dim);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.section-tag::before {
+  content: '';
+  width: 22px;
+  height: 1px;
+  background: var(--ink-dim);
+}
+
+h2.section-title {
+  font-family: var(--f-display);
+  font-size: clamp(28px, 3.2vw, 42px);
+  line-height: 1.1;
+  margin-bottom: 16px;
+  max-width: 760px;
+}
+
+.section-title .hl {
+  color: var(--yellow);
+}
+
+/* ---------- buttons ---------- */
+.btn {
+  font-family: var(--f-body);
+  font-weight: 600;
+  font-size: 15px;
+  padding: 13px 24px;
+  border-radius: 24px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-primary {
+  background: var(--pink);
+  color: #1a0a12;
+}
+
+.btn-primary:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.btn-link {
+  border-bottom: 1px solid var(--line);
+  padding: 13px 0;
+  border-radius: 0;
+}
+
+.btn-link:hover {
+  border-color: var(--ink);
+}
+
+@media (max-width: 920px) {
+  .wrap {
+    padding: 0 22px;
+  }
+
+  section {
+    padding: 64px 0;
+  }
+}

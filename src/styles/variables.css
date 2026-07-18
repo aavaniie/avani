@@ -1,0 +1,27 @@
+:root {
+  /* backgrounds */
+  --bg: #0f0f1a;
+  --bg2: #151521;
+  --panel: #191927;
+
+  /* text */
+  --ink: #f5f4f2;
+  --ink-dim: #9b98ab;
+
+  /* accents, pulled from the reference moodboard */
+  --indigo: #7c6cff;
+  --pink: #ff4f93;
+  --yellow: #ffcc33;
+  --mint: #2dd6a8;
+
+  --line: rgba(245, 244, 242, 0.1);
+
+  /* fonts */
+  --f-display: 'Archivo Black', sans-serif;
+  --f-body: 'Space Grotesk', sans-serif;
+  --f-mono: 'Space Mono', monospace;
+
+  /* layout */
+  --container: 1200px;
+  --frame: 1320px;
+}
