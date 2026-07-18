@@ -11,8 +11,8 @@ function Hero() {
           </div>
 
           <h1 className="hero-title">
-            Pixel - Perfect <span className="accent-indigo">Responsive</span> Interfaces{' '}
-            <span className="accent-pink">using.</span>
+            Turning designs <span className="accent-indigo">into pixel-perfect</span> Responsive{' '}
+            <span className="accent-pink">Interfaces.</span>
           </h1>
 
           <p className="hero-sub">

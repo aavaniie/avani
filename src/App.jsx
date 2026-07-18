@@ -12,9 +12,6 @@ function App() {
     <>
       {/* soft blurred blobs + dot grid sitting behind everything, fixed to the viewport */}
       <div className="bg-layer">
-        <div className="blob blob-a"></div>
-        <div className="blob blob-b"></div>
-        <div className="blob blob-c"></div>
       </div>
 
       <Header />

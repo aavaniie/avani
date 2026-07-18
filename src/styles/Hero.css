@@ -82,8 +82,13 @@ h1.hero-title {
 }
 
 .stat-item {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 12px;
+    background: var(--panel);
+    border: 1px solid var(--indigo);
+    box-shadow: 0.063rem 0.063rem 0.063rem 0.063rem var(--indigo);
 }
 
 .stat-num {
