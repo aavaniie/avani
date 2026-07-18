@@ -13,19 +13,18 @@ function Projects() {
           <div className="browser proj-card">
             <div className="browser-bar">
               <div className="browser-dots"><span></span><span></span><span></span></div>
-              <div className="browser-url">expense-tracker.dev</div>
+              <div className="browser-url">hapxdigital.com</div>
             </div>
-            <div className="proj-thumb">Expense Tracker</div>
+            <div className="proj-thumb">Hapx Digital</div>
             <div className="proj-body">
-              <div className="proj-title">Expense Tracker</div>
+              <div className="proj-title">Hapx Digital [Client Project - Hapx Digital]</div>
               <div className="proj-desc">
-                React CRUD application with add, edit, update, delete and total expense
-                calculation.
+                Created a responsive, SEO‑optimized website for a branding firm, ensuring fast load times, cross‑browser
+compatibility, and a user‑friendly design using modern HTML, CSS, and JavaScript practices
               </div>
-              <div className="proj-stack">React · JavaScript</div>
+              <div className="proj-stack">WordPress · CSS . JavaScript . Gutenberg</div>
               <div className="proj-links">
-                <a href="#">Live Demo</a>
-                <a href="#">GitHub</a>
+                {/* <a href="#">Live Demo</a> */}
               </div>
             </div>
           </div>
@@ -33,18 +32,17 @@ function Projects() {
           <div className="browser proj-card">
             <div className="browser-bar">
               <div className="browser-dots"><span></span><span></span><span></span></div>
-              <div className="browser-url">movie-search.dev</div>
+              <div className="browser-url">frangulf.ae</div>
             </div>
-            <div className="proj-thumb">Movie Search</div>
+            <div className="proj-thumb">FranGulf</div>
             <div className="proj-body">
-              <div className="proj-title">Movie Search</div>
+              <div className="proj-title">FranGulf [Client Project - Hapx Digital]</div>
               <div className="proj-desc">
-                Search movies using a REST API with dynamic results and responsive UI.
+                Designed and developed the official website for Frangulf, a UAE‑based law firm, focusing on modern, responsive design and clear usability across devices.
               </div>
-              <div className="proj-stack">React · API</div>
+              <div className="proj-stack">WordPress · CSS . JavaScript . Gutenberg</div>
               <div className="proj-links">
-                <a href="#">Live Demo</a>
-                <a href="#">GitHub</a>
+                {/* <a href="#">Live Demo</a> */}
               </div>
             </div>
           </div>
@@ -52,19 +50,18 @@ function Projects() {
           <div className="browser proj-card">
             <div className="browser-bar">
               <div className="browser-dots"><span></span><span></span><span></span></div>
-              <div className="browser-url">portfolio.avani.dev</div>
+              <div className="browser-url">samuhikpahal.org</div>
             </div>
-            <div className="proj-thumb">Portfolio Site</div>
+            <div className="proj-thumb">Samuhik Pahal</div>
             <div className="proj-body">
-              <div className="proj-title">Portfolio Website</div>
+              <div className="proj-title">Portfolio Website [Client Project – Midnay Tech Private Limited]</div>
               <div className="proj-desc">
-                A creative frontend portfolio built with React featuring smooth animations and
-                custom illustrations.
+                Developed a fully responsive, high‑performance website for Samuhik Pahal, ensuring fast page speed, reliable behavior, and a consistent experience across devices and browsers.
+
               </div>
               <div className="proj-stack">React</div>
               <div className="proj-links">
-                <a href="#">Live Demo</a>
-                <a href="#">GitHub</a>
+                {/* <a href="#">Live Demo</a> */}
               </div>
             </div>
           </div>

@@ -21,7 +21,7 @@ Frontend developer with 3+ years of experience building responsive, user-focused
 
           <div className="hero-ctas">
             <a href="#projects" className="btn btn-primary">View my work →</a>
-            <a href="#contact" className="btn btn-link">Let's talk →</a>
+            <a href="tel:9847321012" className="btn btn-link">Let's talk</a>
           </div>
 
           <div className="stat-strip">

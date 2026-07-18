@@ -111,7 +111,7 @@ function Experience() {
           <div className="browser edu-card">
             <div className="browser-bar">
               <div className="browser-dots"><span></span><span></span><span></span></div>
-              <div className="browser-url">aputk.ac.in/transcript</div>
+              <div className="browser-url">https://ktu.edu.in/</div>
             </div>
             <div className="browser-body">
               <div className="edu-cap">

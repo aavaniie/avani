@@ -8,13 +8,13 @@ function Header() {
         <div className="logo">AM.</div>
 
         <ul className="nav-links">
-          <li><a href="#work">Work</a></li>
+          <li><a href="#projects">Work</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <a href="#contact" className="nav-cta">Say hello →</a>
+        <a href="tel:9847321012" className="nav-cta">Say hello</a>
       </nav>
     </header>
   )
