@@ -257,13 +257,13 @@ h2.section-title {
 }
 
 .btn-link {
-  border-bottom: 1px solid var(--line);
-  padding: 13px 0;
-  border-radius: 0;
+    background: var(--mint);
+    color: var(--bg);
 }
 
 .btn-link:hover {
-  border-color: var(--ink);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0 var(--ink);
 }
 
 @media (max-width: 920px) {

@@ -50,6 +50,8 @@
 
 .contact-row:nth-child(1) .contact-icon { background: var(--indigo); }
 .contact-row:nth-child(2) .contact-icon { background: var(--pink); }
+.contact-row:nth-child(3) .contact-icon { background: var(--yellow); }
+.contact-row:nth-child(4) .contact-icon { background: var(--mint); }
 
 .contact-icon .icon {
   stroke: #12121c;
