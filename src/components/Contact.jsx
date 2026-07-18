@@ -2,7 +2,7 @@ import '../styles/Contact.css'
 
 function Contact() {
   return (
-    <section id="contact">
+    <section className="alt" id="contact">
       <div className="wrap contact-inner">
         <div>
           <div className="section-tag">05 / contact</div>
