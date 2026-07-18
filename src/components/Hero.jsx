@@ -11,12 +11,12 @@ function Hero() {
           </div>
 
           <h1 className="hero-title">
-            I build interfaces the <span className="accent-indigo">internet</span> actually enjoys{' '}
+            Pixel - Perfect <span className="accent-indigo">Responsive</span> Interfaces{' '}
             <span className="accent-pink">using.</span>
           </h1>
 
           <p className="hero-sub">
-Frontend developer with 3+ years of experience building responsive, user-focused websites using HTML, CSS, JavaScript, React, and WordPress. Currently expanding my expertise in Next.js, Django, REST APIs, and SQL to build fast, scalable, and modern web applicatio
+Frontend developer with 4+ years of experience building responsive, user-focused websites using HTML, CSS, JavaScript, React, and WordPress. Currently expanding my expertise in Next.js, Django, REST APIs, and SQL to build fast, scalable, and modern web applicatio
           </p>
 
           <div className="hero-ctas">

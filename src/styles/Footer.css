@@ -11,4 +11,5 @@ footer {
 }
 footer.wrap {
     padding: 10px 40px;
+    justify-content: center;
 }
