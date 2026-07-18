@@ -59,7 +59,7 @@ compatibility, and a user‑friendly design using modern HTML, CSS, and JavaScri
                 Developed a fully responsive, high‑performance website for Samuhik Pahal, ensuring fast page speed, reliable behavior, and a consistent experience across devices and browsers.
 
               </div>
-              <div className="proj-stack">React</div>
+              <div className="proj-stack">WordPress · CSS . JavaScript . Gutenberg</div>
               <div className="proj-links">
                 {/* <a href="#">Live Demo</a> */}
               </div>
