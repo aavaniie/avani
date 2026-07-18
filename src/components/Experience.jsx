@@ -15,7 +15,7 @@ function Experience() {
             <div className="browser tl-card">
               <div className="browser-bar">
                 <div className="browser-dots"><span></span><span></span><span></span></div>
-                <div className="browser-url">softroniics.com/intern</div>
+                <div className="browser-url">softroniics.com</div>
               </div>
               <div className="browser-body">
                 <div className="tl-role">Python Developer Intern</div>
@@ -34,7 +34,7 @@ function Experience() {
             <div className="browser tl-card">
               <div className="browser-bar">
                 <div className="browser-dots"><span></span><span></span><span></span></div>
-                <div className="browser-url">hapxdigital.com/contract</div>
+                <div className="browser-url">hapxdigital.com</div>
               </div>
               <div className="browser-body">
                 <div className="tl-role">Contract Web Developer</div>
@@ -53,7 +53,7 @@ function Experience() {
             <div className="browser tl-card">
               <div className="browser-bar">
                 <div className="browser-dots"><span></span><span></span><span></span></div>
-                <div className="browser-url">midnaytech.com/frontend</div>
+                <div className="browser-url">midnay.com</div>
               </div>
               <div className="browser-body">
                 <div className="tl-role">Frontend Developer</div>
@@ -72,7 +72,7 @@ function Experience() {
             <div className="browser tl-card">
               <div className="browser-bar">
                 <div className="browser-dots"><span></span><span></span><span></span></div>
-                <div className="browser-url">midnaytech.com/trainee</div>
+                <div className="browser-url">midnay.com</div>
               </div>
               <div className="browser-body">
                 <div className="tl-role">Trainee</div>
@@ -91,7 +91,7 @@ function Experience() {
             <div className="browser tl-card">
               <div className="browser-bar">
                 <div className="browser-dots"><span></span><span></span><span></span></div>
-                <div className="browser-url">tenzotech.com/junior</div>
+                <div className="browser-url">tenzotech.com</div>
               </div>
               <div className="browser-body">
                 <div className="tl-role">Junior Python Developer</div>

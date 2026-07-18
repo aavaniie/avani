@@ -6,7 +6,6 @@ function Footer() {
   return (
     <footer className="wrap">
       <span>© {year} Avani. Built line by line.</span>
-      <span>Back to top ↑</span>
     </footer>
   )
 }

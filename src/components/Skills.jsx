@@ -25,7 +25,7 @@ function Skills() {
       <div className="wrap">
         <div className="section-tag">02 / toolbox</div>
         <h2 className="section-title">
-          Tabs I keep <span className="hl">open</span> all day.
+          Things I <span className="hl">Build </span>With.
         </h2>
       </div>
 

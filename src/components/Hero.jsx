@@ -16,9 +16,7 @@ function Hero() {
           </h1>
 
           <p className="hero-sub">
-            Over <b>2 years</b> turning designs into responsive, production-ready websites — now
-            stretching into <b>React, Django &amp; REST APIs</b> to build the full picture, not
-            just the front row.
+Frontend developer with 3+ years of experience building responsive, user-focused websites using HTML, CSS, JavaScript, React, and WordPress. Currently expanding my expertise in Next.js, Django, REST APIs, and SQL to build fast, scalable, and modern web applicatio
           </p>
 
           <div className="hero-ctas">
@@ -28,11 +26,11 @@ function Hero() {
 
           <div className="stat-strip">
             <div className="stat-item">
-              <span className="stat-num">2+</span>
+              <span className="stat-num">4+</span>
               <span className="stat-label">Years building</span>
             </div>
             <div className="stat-item">
-              <span className="stat-num">5</span>
+              <span className="stat-num">3</span>
               <span className="stat-label">Companies</span>
             </div>
             <div className="stat-item">
