@@ -78,7 +78,7 @@ h1.hero-title {
 
 .stat-strip {
   display: flex;
-  gap: 28px;
+  gap: 10px;
 }
 
 .stat-item {
